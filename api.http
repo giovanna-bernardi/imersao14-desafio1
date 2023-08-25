@@ -1,0 +1,15 @@
+### Criar routes
+POST http://localhost:3000/api/routes
+Content-Type: application/json
+
+{
+    "name": "A route",
+    "source_id": "1",
+    "destination_id": "2"
+}
+
+### Listar routes
+GET http://localhost:3000/api/routes
+
+### Listar routes
+GET http://localhost:3000/
